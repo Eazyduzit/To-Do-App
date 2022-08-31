@@ -1,0 +1,51 @@
+#pageHeader{
+    height: 90px;
+    background-color: rgb(128, 128, 128);
+    position: relative;
+}
+h1, h2, h4, input, button{
+    margin-left: 200px;
+}
+h1{
+    padding-top: 30px;
+    }
+#btn{
+    padding: 10px;
+} 
+input{
+    width: 800px;
+    height: 30px;
+    }   
+p{
+    background-color: rgb(255, 165, 0);
+    width: 700px;
+    height: 40px;
+    text-align: center;
+    padding: 54px;
+    }
+
+/* Media queries for skalering */
+@media (max-width: 1100px) {
+    input{
+        width: 600px;
+    }
+    p{
+        width: 500px;
+    }
+}
+@media (max-width: 900px) {
+    input{
+        width: 400px;
+    }
+    p{
+        width: 300px;
+    }
+}
+@media (max-width: 750px) {
+    input{
+        width: 200px;
+    }
+    p{
+        width: 100px;
+    }
+}
